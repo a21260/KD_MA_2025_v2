@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 140px;
+}
+
+
+#MA h2, #MA h3, #MA h4, #MA p, #MA a, #MA ol, #MA li, #MA span{
+    font-family: "Roboto", "Noto Sans TC", "Microsoft JhengHei UI", "Microsoft JhengHei", "Arial", sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+    -webkit-text-size-adjust: none;
+    -webkit-overflow-scrolling: touch;
+    word-wrap: break-word;
+    text-align:justify;
+}
+#MA h2{
+    color:#1E335F;
+    margin-bottom:40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+    font-weight:bold;
+}
+
+#MA h2::after{
+    content: "";
+    width: 20px;
+    height: 3px;
+    background-color: #1E335F;
+    display: block;
+    position: absolute;
+    top: calc(50% + 20px);
+    left: calc(50% - 10px);
+}
+
+#MA h3{
+    font-size: 18px;
+    color:#00657C;
+    line-height: 36px;
+    font-weight:bold;
+
+}
+
+#MA h4{
+    font-size: 15px;
+    color:#00657C;
+    line-height: 25px;
+    font-weight:bold;
+}
+
+

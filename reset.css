@@ -1,0 +1,18 @@
+/* Reset CSS for #MA scope */
+#MA, 
+#MA div, #MA span, #MA applet, #MA object, #MA iframe,
+#MA h1, #MA h2, #MA h3, #MA h4, #MA h5, #MA h6, #MA p, #MA blockquote, #MA pre,
+#MA a, #MA abbr, #MA acronym, #MA address, #MA big, #MA cite, #MA code,
+#MA del, #MA dfn, #MA em, #MA img, #MA ins, #MA kbd, #MA q, #MA s, #MA samp,
+#MA small, #MA strike, #MA strong, #MA sub, #MA sup, #MA tt, #MA var,
+#MA b, #MA u, #MA i, #MA center,
+#MA dl, #MA dt, #MA dd, #MA ol, #MA ul, #MA li,
+#MA fieldset, #MA form, #MA label, #MA legend,
+#MA table, #MA caption, #MA tbody, #MA tfoot, #MA thead, #MA tr, #MA th, #MA td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+}
